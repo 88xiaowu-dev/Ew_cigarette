@@ -97,7 +97,7 @@
             box-shadow: 0 4px 15px rgba(34, 158, 217, 0.3);
             border: 2px solid rgb(2, 252, 239);
         }
-        .btn-telegram-single:hover { transform: translateY(-3px); background: rgb(2, 252, 239,0.3); box-shadow: 0 6px 20px rgba(31, 100, 250, 0.3); }
+        .btn-telegram-single:hover { transform: translateY(-3px); background: rgba(2, 252, 239, 0.3); box-shadow: 0 6px 20px rgba(31, 100, 250, 0.3); }
 
         /* GRID PRODUK */
         .menu-container {
@@ -129,7 +129,7 @@
             backdrop-filter: blur(10px); align-items: center; justify-content: center;
         }
         .modal-content {
-            background: #1a1a1a; border: 2px solid rgb(2, 252, 239);; width: 90%; max-width: 380px;
+            background: #1a1a1a; border: 2px solid rgb(2, 252, 239); width: 90%; max-width: 380px;
             padding: 25px; border-radius: 25px; text-align: center; color: white;
             position: relative; animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
@@ -144,18 +144,15 @@
         }
         .btn-modal-order:hover { background: #1c82b3; }
 
-        /* BACK TO TOP */
         #backToTop {
             position: fixed; bottom: 25px; right: 25px; z-index: 99;
-            background: #ffd700; color: #000; width: 50px; height: 50px;
+            background: rgb(2, 252, 239); color: #000; width: 50px; height: 50px;
             border-radius: 50%; border: none; cursor: pointer;
             display: none; align-items: center; justify-content: center;
             font-size: 24px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.4);
             transition: 0.3s;
         }
-        #backToTop:hover { background: white; transform: scale(1.1); }
 
-        /* MOBILE OPTIMIZATION */
         @media screen and (max-width: 600px) {
             .menu-container { grid-template-columns: repeat(2, 1fr); gap: 10px; }
             .card img { height: 130px; }
@@ -392,7 +389,7 @@
                 <img src="https://github.com/88xiaowu-dev/-xiaowurokok-/blob/main/LA%20PURPLE%20BOOST.png?raw=true" loading="lazy" alt="L.A PURPLE">
                 <div class="card-content">
                     <div class="product-name">L.A PURPLE</div>
-                    <span class="price-tag">฿1050<span>
+                    <span class="price-tag">฿1.050<span>
                 </div>
             </div>
 
